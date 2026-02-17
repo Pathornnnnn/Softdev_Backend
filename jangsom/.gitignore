@@ -1,0 +1,18 @@
+# --- ข้อมูลความลับ (สำคัญที่สุด!) ---
+.env
+
+# --- ไฟล์ขยะจากการ Build .NET ---
+[Bb]in/
+[Tj]mp/
+[Oo]bj/
+publish/
+
+# --- ไฟล์จาก IDE (VS Code / Visual Studio) ---
+.vscode/
+.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# --- Docker ---
+.dockerignore

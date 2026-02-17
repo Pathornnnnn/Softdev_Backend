@@ -1,0 +1,9 @@
+services:
+  asset-api:
+    build: .
+    container_name: jangsom_container
+    ports:
+      - "5069:8080" # เพื่อนจะเข้าผ่าน http://localhost:5069 เหมือนที่คุณรันตอนนี้
+    env_file:
+      - .env # ดึงค่า SUPABASE_URL และ KEY จากไฟล์ .env ของแต่ละคน
+    restart: always

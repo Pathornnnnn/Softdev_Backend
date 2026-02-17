@@ -1,0 +1,6 @@
+@jangsom_HostAddress = http://localhost:5069
+
+GET {{jangsom_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
