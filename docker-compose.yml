@@ -1,5 +1,7 @@
 services:
   asset-api:
+    environment:
+        - ASPNETCORE_ENVIRONMENT=Development
     build: .
     container_name: jangsom_container
     ports:
